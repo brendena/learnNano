@@ -9,7 +9,7 @@ import {
   IonTabButton,
   IonTabs
 } from '@ionic/react';
-import { IonReactRouter } from '@ionic/react-router';
+import { IonReactHashRouter } from '@ionic/react-router';
 import { images, ellipse, square, triangle } from 'ionicons/icons';
 import HomePage from './pages/HomePage';
 import BasicExample from './pages/BasicExample';
@@ -38,13 +38,13 @@ import './theme/fonts.css';
 
 const App: React.FC = () => (
   <IonApp>
-    <IonReactRouter>
+    <IonReactHashRouter>
         <IonRouterOutlet>
           <Route path="/" component={HomePage} exact={true} />
           <Route path="/basicExample" component={BasicExample} exact={true} />
           <Route path="/homePage" render={() => <Redirect to="/" />} exact={true} />
         </IonRouterOutlet>
-    </IonReactRouter>
+    </IonReactHashRouter>
   </IonApp>
 );
 

@@ -21,7 +21,7 @@ const HomePage: React.FC = () => {
             <img src={nanoLogo} alt="Nano's logo" height="50px" />
           </div>
           <div>
-            <IonRouterLink href="basicExample" >
+            <IonRouterLink href="/#/basicExample" >
               <p className="textHomePage">basic</p>
             </IonRouterLink>
             

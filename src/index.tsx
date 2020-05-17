@@ -12,9 +12,7 @@ debug.enable('NCIndexInfo*,NCIndexError*,bittorrent-tracker:websocket-tracker*,s
 log.setDefaultLevel("trace")
 
 ReactDOM.render(
-    
-        <App />
-    , 
+        <App />, 
     document.getElementById('root'));
 
 defineCustomElements(window);
