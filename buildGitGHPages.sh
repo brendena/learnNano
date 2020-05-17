@@ -2,6 +2,6 @@
 
 cd build 
 touch CNAME 
-echo "trynanorpc.dev" > CNAME
+echo "learnnano.dev" > CNAME
 cd ..
 gh-pages -d build
