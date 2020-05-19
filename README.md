@@ -1,1 +1,1 @@
-# [learnano.dev](https://learnano.dev/)
+# [learnnano.dev](https://learnnano.dev/)
